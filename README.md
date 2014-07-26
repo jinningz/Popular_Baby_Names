@@ -1,4 +1,4 @@
-DataAnalysis
+Data Analysis
 ============
 
 This repository is cool.
