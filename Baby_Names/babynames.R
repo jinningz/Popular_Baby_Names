@@ -18,8 +18,11 @@ setwd("E:/Data Analysis/Baby Names")
 download.file("http://www.ssa.gov/oact/babynames/names.zip", "names.zip")
 unzip("names.zip", exdir="./names")
 
-data <- data.frame(rank = numeric(0), year = character(), name=character(), 
-                   sex = character(), number = numeric(0))
+data <- data.frame(rank = numeric(0), 
+                   year = character(), 
+                   name=character(), 
+                   sex = character(), 
+                   number = numeric(0))
 
 for (i in 1880:2013) {
         print(i) ## It takes a while to load all data files, display progress
